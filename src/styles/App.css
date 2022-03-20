@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .App {
+    @apply m-0 p-0 h-full flex gap-2;
+  }
+
+  main {
+    @apply flex-auto my-4 mx-2 px-3 py-2
+    rounded-lg shadow-xl bg-gray-800;
+  }
+}
